@@ -1,0 +1,119 @@
+@media screen and (max-width:960px) {
+    .nav-toogles{
+        display: block;
+        font-size: 1.3rem;
+    }
+    .nav-links{
+        position: absolute;
+        background-color: white;
+        left: -100%;
+        top: 100%;
+        width: 100%;
+        padding-block: 20px;
+    }
+    .nav-links.active{
+        left: 0;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .main-nav{
+        overflow: initial;
+    }
+    .main-box{
+        display: block;
+        
+        align-items: center;
+        
+    }
+    #introduction{
+        min-height: 80vh;
+         
+    }
+    .left-box{
+        width: 80vw;
+        text-align: center;
+        margin-inline: auto;
+        margin-top: 40px;
+
+    }
+    .right-box{
+        width: 80vw;
+        text-align: center;
+        margin-inline: auto;
+        margin-top: 40px;
+
+    }
+    .hero-img{
+        width: 80vw;
+        margin-top: 10px;
+    }
+    .hero2-img{
+        width: 80vw;
+        margin-top: 10px;
+    }
+    .s-boxes{
+        margin-inline: auto;
+        width:70vw
+    }
+    .secondary-btn{
+        padding: 8px 18px;
+    }
+    .pbox h2{
+        margin-top: 10vh;
+        margin-bottom: 20px;
+    }
+    
+}
+@media  screen and (max-width:460px) {
+    .container{
+        margin-inline: auto;
+    }
+    .logo img{
+        width: 90px;
+    }
+    .s-boxes{
+        gap: 30px;
+    }
+    .project{
+        display: block;
+    }
+    .pbox{
+        width: 70%;
+    }
+    .right-box{
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:1000px) {
+    .pbox h2{
+        margin-top: 10vh;
+        margin-bottom: 25px;
+    }
+    .pbox{
+        width: 28%;
+        margin-inline: auto;
+        height: 360px;
+        background-color:#f6f6f1 ;
+        margin-top: 35px;
+        border: 0.1px outset rgb(54, 54, 54);
+        border-radius: 20px;
+        box-shadow:4px 4px 8px rgb(27, 26, 26) ;
+        z-index: 2;
+    }
+    .secondary-btn{
+        padding: 15px 28px;
+        background-color: black;
+        border-radius: 8px;
+        box-shadow:1px 1px 2px rgb(108, 108, 108) ;
+        z-index: 1.5;
+        color: white;
+        
+        
+    }
+    
+    .p-l-h{
+        margin-top: 10vh;
+    }
+    
+}

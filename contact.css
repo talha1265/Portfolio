@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.container{
+    max-width: 50%;
+    text-align: center;
+    margin-inline: auto;
+    background-color: #c1c1bc;
+    margin-top: 80px;
+    border-radius: 15px;
+    height: 570px;
+    font-size: 1.3rem;
+    border: 0.1px outset rgb(27, 26, 26);
+    box-shadow:4px 4px 8px rgb(27, 26, 26) ;
+    z-index: 2;
+
+}
+.comments{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+textarea{
+    border-radius: 10px;
+    resize: none;
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    padding: 8px;
+    width: 85%;
+
+
+}
+.container h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+a{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 12px 24px;
+    border-radius: 7px;
+    box-shadow:1px 1px 2px rgb(73, 71, 71) ;
+    z-index: 1.5;
+    transition: 0.4s ease-in;
+
+}
+a:hover{
+    background-color: rgb(38, 38, 38);
+    border-radius: 12px;
+    scale: 1.4;
+
+}
+.email-i{
+  width: 85%;
+  height: 40px;
+}
+.label{
+    text-align: start;
+
+}
+input{
+    border: 2px solid #ccc;
+    background-color: #f8f8f8;
+    padding: 1px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+}
+
+@media screen and (max-width:550px) {
+
+    h1{
+        font-size: 1.7rem;
+    }
+    a{
+        padding: 8px 18px;
+    }
+    .container{
+        max-width: 80%;
+    }
+    
+}

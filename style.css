@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width:88vw;
+    margin-inline: auto;
+}
+.logo img{
+   width: 120px;
+   box-shadow:1px 1px 2px rgb(73, 71, 71) ;
+    z-index: 1.5;
+    border-radius: 8px;
+  
+}
+.main-nav{
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-inline: auto;
+    position: relative;
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+ul{
+    gap: 40px;
+}
+ul li{
+    list-style: none;
+}
+.nav-toogles{
+    display: none;
+}
+.L-scale{
+    transition: 0.3s ease-in;
+}
+.L-scale:hover
+{
+    scale: 1.1;
+}
+.primary-btn{
+    padding: 12px 24px;
+    background-color: #edede9;
+    border-radius: 6px;
+    color: black;
+    box-shadow:1px 1px 2px rgb(27, 26, 26) ;
+    z-index: 1.5;
+    border: 0.1px outset rgb(31, 31, 31)
+   
+    
+    
+}
+.primary-btn:hover{
+    background-color: #a4a4a1;
+    scale: 1.3;
+    transition: 0.2s ease-in-out;
+    color: black;
+    border-radius: 10px;
+
+}
+.hover-link:hover{
+    scale: 1.4;
+    transition: 0.1s ease-in;
+    color: rgb(103, 103, 232);
+}
+
+
+
+.main-box{
+    
+    
+    margin-top: 8px;
+    width: 100vw;
+
+}
+.right-box{
+    width: 47vw;
+
+}
+.left-box{
+    font-size: 1.2rem;
+    width: 46vw;
+}
+.hero-img{
+    width: 45vw;
+    padding: 20px;
+    
+    }
+.hero-img:hover{
+    scale: 1.06;
+    transition: 1s ease-in-out;
+}   
+
+.s-boxes{
+    gap: 90px;
+    margin-top: 60px;
+    flex-wrap: wrap;
+    width: 45vw;
+   }
+.skill-box{
+    text-align: center;
+}
+
+.skill-box h2{
+    margin-top: 8px;
+}
+.hero2-img{
+    width: 45vw;
+    padding: 20px;
+}
+.hero2-img:hover{
+    scale: 1.07;
+    transition: 1s ease-in-out;
+}
+.experience{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 1.3rem;
+    margin-bottom: 100px;
+}
+.experience h1{
+    margin-top: 30px;
+}
+.experience h2{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.experience .btn{
+    margin-bottom: 50px;
+   
+}
+.projects{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.3rem;
+    margin-bottom: 120px;
+    display: block;
+    
+
+}
+
+
+.projects h1{
+    padding-bottom: 20px;
+
+}
+.pbox{
+    width: 28%;
+    margin-inline: auto;
+    height: 320px;
+    background-color:#f6f6f1 ;
+    margin-top: 35px;
+    border: 0.1px outset rgb(54, 54, 54);
+    border-radius: 20px;
+    box-shadow:4px 4px 8px rgb(27, 26, 26) ;
+    z-index: 2;
+}
+
+
+.pbox h2{
+    margin-top: 20vh;
+    margin-bottom: 40px;
+}
+.secondary-btn{
+    padding: 12px 24px;
+    background-color: black;
+    border-radius: 6px;
+    box-shadow:1px 1px 2px rgb(108, 108, 108) ;
+    z-index: 1.5;
+    color: white;
+    
+    
+}
+.secondary-btn:hover{
+    background-color: rgb(49, 49, 49);
+    transition: 0.2s ease-in-out;
+    scale: 1.3;
+    border-radius:10px ;
+}
+.p-l-h{
+    margin-top: 80px;
+}
+footer{
+    text-align: center;
+    
+    color: black;
+    height: 90px;
+}
+.footer-links{
+    margin-top: px;
+    margin-bottom: 20px;
+}
+.f-links{
+    margin-top: 15px;
+}
+footer h2{
+    margin-top: 20px;
+}
+.copyright{
+     margin-bottom: 8px;
+}
+.f-i:hover{
+    scale: 1.1;
+    transition: 0.3s ease-in;
+}
