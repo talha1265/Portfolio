@@ -129,7 +129,7 @@ ul li{
 
 @media (prefers-reduced-motion: no-preference) {
    .react-logo {
-      animation: react-logo infinite 20s linear;
+      animation: react-logo infinite 15s linear;
     }
   }
 @keyframes react-logo {
