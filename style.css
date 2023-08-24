@@ -124,6 +124,8 @@ ul li{
     transition: 0.3s ease-in-out;
     
 }
+#react-logo{
+}
 
 @media (prefers-reduced-motion: no-preference) {
    #react-logo {
