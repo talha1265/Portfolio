@@ -21,6 +21,9 @@
     }
     .nav-links ul{
         flex-direction: column;
+        
+    }
+    .nav-links ul .primary-btn{
         margin-buttom:20px;
     }
     .main-nav{
