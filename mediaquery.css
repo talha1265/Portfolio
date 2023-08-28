@@ -14,17 +14,18 @@
        
     }
     .nav-links.active{
-        transition: 0.3s ease-in;
+        transition: 0.3s ease-in-out;
         left: 0;
         background-color: #dee2e6;
         border-radius: 25px;
+        box-shadow:8px 8px 12px black;
     }
     .nav-links ul{
         flex-direction: column;
         
     }
     .nav-links ul .primary-btn{
-        margin-buttom:20px;
+        margin-buttom:25px;
     }
     .main-nav{
         overflow: initial;
