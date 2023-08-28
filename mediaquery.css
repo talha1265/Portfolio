@@ -10,6 +10,7 @@
         top: 100%;
         width: 100%;
         padding-block: 20px;
+        padding-bottom:15px;
     }
     .nav-links.active{
         left: 0;
