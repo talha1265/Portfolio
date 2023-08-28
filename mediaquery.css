@@ -19,6 +19,8 @@
         background-color: #dee2e6;
         border-radius: 25px;
         box-shadow:8px 8px 12px black;
+        margin-top:8px;
+        border:1px outset black;
     }
     .nav-links ul{
         flex-direction: column;
